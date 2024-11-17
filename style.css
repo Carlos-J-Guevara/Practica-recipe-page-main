@@ -1,0 +1,54 @@
+/* import the font */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* font applyed 'EB Garamond', serif; */
+/* first mobile */
+
+@media only screen and (max-width: 375px){
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:hsl(0, 0%, 100%);
+    font-family:'EB Garamond', serif;
+}
+
+header img{
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+}
+
+.firstPresentation h1{
+    display: flex ;
+    justify-content: center;
+    font-size: 40px;
+    margin: 5% 10%;
+}
+
+.firstPresentation p{
+    display: flex ;
+    justify-content: center;
+    margin: 5% 10%;
+    font-weight: bold;
+    color: rgb(152, 148, 145);
+}
+
+.preparation{
+  background-color: rgb(255, 247, 252);
+  margin: 5% 10%;
+  padding: 2%;
+}
+
+.preparation h1{
+  margin:3%; 
+  color: rgb(94, 39, 62);
+  font-weight: bold;
+}
+
+.preparation ul{
+  margin:3%; 
+  color: rgb(94, 39, 62);
+  font-weight: bold;
+}
