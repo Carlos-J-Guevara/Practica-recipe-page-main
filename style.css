@@ -37,13 +37,14 @@ header img{
 
 .preparation{
   background-color: rgb(255, 247, 252);
-  margin: 5% 10%;
-  padding: 2%;
+  margin: 5% 8%;
+  padding: 8% 0%;
 }
 
 .preparation h1{
-  margin:3%; 
-  color: rgb(94, 39, 62);
+  margin-left:5%; 
+  margin-top: -4%;
+  color: #6F2D49;
   font-weight: bold;
 }
 
@@ -51,4 +52,15 @@ header img{
   margin:3%; 
   color: rgb(94, 39, 62);
   font-weight: bold;
+}
+
+.preparation li {
+  position: relative;
+  padding-left: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.preparation span{
+  color: black;
 }
