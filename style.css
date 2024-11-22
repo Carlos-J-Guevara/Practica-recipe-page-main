@@ -64,3 +64,32 @@ header img{
 .preparation span{
   color: black;
 }
+
+/* ingredients. */
+.ingredients{
+  color: #74493C;
+}
+
+.ingredients h1{
+  font-size: 30px;
+  padding-left: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.ingredients span{
+  color: #989491;
+}
+
+.ingredients li{
+  color: #74493C;
+  padding-left: 8%;
+  margin: 4%;
+  max-width: 75%;
+}
+
+.ingredients hr{
+  position: relative;
+  border-bottom: 1px solid #EBEBEB;
+  margin: 10% 8%;
+}
