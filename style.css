@@ -93,3 +93,30 @@ header img{
   border-bottom: 1px solid #EBEBEB;
   margin: 10% 8%;
 }
+
+/* Instructions */
+.Instructions{
+  color: #74493C; 
+}
+
+.Instructions h1{
+  font-size: 30px;
+  padding-left: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.Instructions li{
+  padding-left: 8%;
+  margin: 4%;
+  max-width: 75%;
+}
+
+.resaltadoInstrucions{
+  font-weight: bold;
+  color: black;
+}
+
+li .comunInstrucions {
+  color: rgb(152, 148, 145);
+}
