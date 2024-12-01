@@ -126,3 +126,57 @@ li .comonPreparation{
 li .comunInstrucions {
   color: rgb(152, 148, 145);
 }
+
+.Instructions hr{
+  position: relative;
+  border-bottom: 1px solid #EBEBEB;
+  margin: 10% 8%;
+}
+
+/* nutrition */
+.nutrition h1{
+  color:#74493C;
+  font-size: 30px;
+  padding-left: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.nutrition p{
+  padding-left: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color:rgb(152, 148, 145);
+}
+
+.nutrition li{
+  list-style: none;
+  padding-left: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.primeroNutrition{
+  position: relative;
+  color: rgb(152, 148, 145);
+  margin-top: 50%;
+}
+
+li .datosNutrition{
+  position: relative;
+  color:#74493C;
+  padding-left: 40%;
+  bottom: 20px;
+
+} 
+
+.nutrition hr{
+  position: relative;
+  margin-right: 12%;
+  color:#EBEBEB ;
+  bottom: 22px;
+}
+
+footer{
+  font-family: inherit;
+}
