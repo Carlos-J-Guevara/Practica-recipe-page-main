@@ -14,13 +14,12 @@ body{
 }
 
 
-
 header img{
     max-width: 100%; 
     height: auto; 
     object-fit: cover; 
 }
-}
+
 
 .firstPresentation h1{
     display: flex ;
@@ -53,6 +52,7 @@ header img{
 
 .preparation ul{
   margin:3%; 
+  margin-bottom: -10%;
   color: rgb(94, 39, 62);
   font-weight: bold;
 }
@@ -60,8 +60,8 @@ header img{
 .preparation li {
   position: relative;
   padding-left: 8%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 .preparation span{
@@ -73,6 +73,29 @@ li .comonPreparation{
   color: rgb(152, 148, 145);
 }
 
+#totalContenido{
+  transform: translate(45px,-21px);
+}
+
+#unique{
+  transform: translate(-43px,30%);
+}
+
+#preparation{
+  transform: translate(0,-20%);
+}
+
+#preparationContenido{
+  transform: translate(90px,-20px);
+}
+
+#cookingContenido{
+  transform: translate(65px,-20px);
+}
+
+#cooking{
+  bottom: 10px;
+}
 /* ingredients. */
 .ingredients{
   color: #74493C;
@@ -182,6 +205,7 @@ li .datosNutrition{
 footer{
   font-family: inherit;
 }
+}
 
 /* #####################################
 #####################################
@@ -192,7 +216,7 @@ footer{
 
 /* Computer */
 
-@media only screen and (min-width: 376px){
+@media only screen and (min-width: 375px){
   body{
       margin: 0;
       padding: 0;
@@ -223,7 +247,7 @@ footer{
       margin: 5% 5% 3% 5%;
       padding: 0 5%;
   }
-  }
+  
   
   .firstPresentation{
     max-width: 100%;
@@ -232,10 +256,10 @@ footer{
   .firstPresentation h1{
     display: flex;
     justify-content: flex-start;
-    max-width: 100vw;  
+    max-width: 100%;  
     margin: 0;
     padding: 0;
-    font-size: 550%;
+    font-size: 6vw;
     margin: 0 5%;
   }
   
@@ -245,9 +269,9 @@ footer{
       font-weight: bold;
       color: rgb(152, 148, 145);
       margin: 0;
-      padding: 2% 0;
+      padding: 0% 0%;
       margin: 0 5%;
-      font-size: 220%;
+      font-size: 1.73vw;
   }
   
   /* preparation */ 
@@ -256,15 +280,15 @@ footer{
     justify-content: flex-start;
     background-color: rgb(255, 247, 252);
     padding: 0;
-    margin: 7% 5%;
+    margin: 1.8vw 3.5vw;
     border-radius: 2vw;
   }
   
   .preparation h1{
-    transform: translate(-1%, 50%);
+    transform: translate(6%, 50%);
     color: #6F2D49;
     font-weight: bold;
-    font-size: 300%;
+    font-size: 3vw;
     display: flex;
     justify-content: flex-start;
   }
@@ -275,7 +299,7 @@ footer{
     font-weight: bold;
     margin-left: 7%;
     padding:0%;
-    font-size: 160%;
+    font-size: 2vw;
     margin-top: 7%;
     padding-bottom: 5%;
     padding-left: 5%;
@@ -291,6 +315,8 @@ footer{
   .preparation span{
     color: black;
     font-weight: bold;
+    margin: 0%;
+    padding: 0%;
   }
   
   li .comonPreparation{
@@ -299,18 +325,24 @@ footer{
   }
   
   #totalContenido{
-    top: -35px;
-    left: 70px;
+    transform: translate(5.5vw,-2.7vw);
   }
-
+  
+  #unique{
+    transform: translate(-5vw,0);
+  }
+  
   #preparationContenido{
-    top: -35px;
-    left: 140px;
+    transform: translate(11.2vw,-2.6vw);
   }
 
   #cookingContenido{
-    top: -35px;
-    left: 105px;
+    transform: translate(8.5vw,-2.6vw);
+  }
+
+  #cooking 
+  #preparation{
+    top: -100vw;
   }
 
 
@@ -330,8 +362,12 @@ footer{
     color: #989491;
   }
   
+  .ingredients ul{
+    padding-left: 7vw;
+  }
+
   .ingredients li{
-    font-size: 160%;
+    font-size: 2vw;
     font-weight: bold;
     color: #74493C;
     padding-left: 3%;
@@ -352,18 +388,25 @@ footer{
   
   .Instructions h1{
     font-size: 4vw;
-    padding-left: 4%;
+    padding-left: 5.5vw;
     margin-top: 3%;
-    margin-bottom: 2%;
+    margin-bottom: 0vw;
   }
   
+  .Instructions ol{
+    display: flexbox;
+    justify-content: center;
+    padding-left: 8.1vw;
+    margin-right: 0vw;
+    margin-top: 0vw;
+  }
+
   .Instructions li{
-    padding-left: 3%;
-    margin-left: 4%;
-    margin-top: 1%;
-    margin-bottom: 0%;
-    margin-right: 8%;
-    max-width: 75%;
+    margin-top: 1vw;
+    margin-bottom: 0vw;
+    max-width: 95%;
+    font-size: 2vw;
+    padding-left: 1.5vw;
   }
   
   .resaltadoInstrucions{
@@ -383,49 +426,63 @@ footer{
   }
   
   /* nutrition */
+  .nutrition{
+    padding: 0;
+    margin: 0;
+  }
+
   .nutrition h1{
     color:#74493C;
     font-size: 4vw;
-    padding-left: 4%;
+    padding-left: 5.5vw;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 0;
   }
 
   .nutrition p{
-    padding-left: 4%;
-    margin-top: -20px;
-    margin-bottom: 5%;
+    padding-left: 5.5vw;
+    margin-top: 2vw;
+    margin-bottom: 7vw;
     color:rgb(152, 148, 145);
+    font-size: 2vw;
   }
   
+  .nutrition ul{
+    padding-left: 10.4vw;
+    padding-right: 0.1vw;
+  }
   .nutrition li{
     list-style: none;
-    padding-left: 8%;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    margin-top: 3vw;
+    margin-bottom: 0vw;
+    font-size: 2vw;
   }
   
   .primeroNutrition{
-    position: relative;
+    position:absolute;
     color: rgb(152, 148, 145);
-    margin-top: 50%;
+    font-weight: bold;
+    transform: translate(-1.5vw, -4vw);
   }
   
   li .datosNutrition{
-    position: relative;
+    position: absolute;
     color:#74493C;
-    padding-left: 40%;
-    bottom: 20px;
-  
+    font-weight: bold;
+    transform: translate(30.5vw, -4vw);
+    
   } 
   
   .nutrition hr{
-    position: relative;
     border: 0.1vw solid rgb(200, 199, 199);
-    margin-right: 12%;
-    bottom: 22px;
+    margin-left: -8vw;
+    margin-right: 3% ;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
   }
   
   footer{
     font-family: inherit;
+    font-size: 2vw;
   }
+}
