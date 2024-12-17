@@ -8,7 +8,7 @@
   <title class="general">Frontend Mentor | Recipe page</title>
 </head>
 <body>
-  
+<div id="contenidoGlobal">
 <header>
     <img src="assets/images/image-omelette.jpeg" alt="omelette">
 </header>
@@ -31,9 +31,9 @@
 <section class="preparation">
   <h1>Preparation time</h1>
   <ul>
-    <li id="total"><span>Total:</span><div class="comonPreparation">Approximately 10 minutes</div></li>
-    <li id="preparation"><span>Preparation:</span><div class="comonPreparation">5 minutes</div></li>
-    <li id="cooking"><span>Cooking:</span><div class="comonPreparation">5 minutes</div></li>
+    <li id="total"><span>Total:</span><div class="comonPreparation" id="totalContenido">Approximately 10 <div id="unique">minutes</div></div></li>
+    <li id="preparation"><span>Preparation:</span><div class="comonPreparation" id="preparationContenido">5 minutes</div></li>
+    <li id="cooking"><span id="cooking">Cooking:</span><div class="comonPreparation" id="cookingContenido">5 minutes</div></li>
   </ul>
 </section>
  
@@ -88,7 +88,7 @@
 
   <table class="nutrition">
     <!-- header tablets -->
-      <ul>
+      <ul class="nutrition">
         <li><span class="primeroNutrition">Calories</span><div class="datosNutrition">277kcal<div></li>
         <hr>
         <li><span class="primeroNutrition">Carbs </span><div class="datosNutrition">0g</div></li>
@@ -105,8 +105,8 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Carlos Guevara</a>.
     </div>
-
-  </footer>
+</footer>
 </main>
+</div>
 </body>
 </html>
